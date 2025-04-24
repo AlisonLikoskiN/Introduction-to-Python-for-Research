@@ -6,7 +6,7 @@ Lab 4: SymPy
 """
 ####################################################################################################################
 """
-Problem 4 - Find the masses
+Problem 2 - Find the masses
 Use SymPy to find the unknows in the following linear system:
 0.9 m1 + 0.3 m2 + 0.1 m3 = 30
 0.1 m1 + 0.5 m2 + 0.2 m3 = 25
@@ -54,6 +54,7 @@ draw()
 
 """
 Did you see any advantage in comparison of using a matrix within NumPy? Discuss it super briefly :)
+################################################################################################
 Yes, with SymPy we just set the symbols, equations and solve it, and with NumPy matrix, takes more efforts and 
 time to set things right (set coeff. matrix, then set the Y matrix and solve).
 """
