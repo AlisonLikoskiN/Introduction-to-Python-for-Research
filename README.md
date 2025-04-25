@@ -29,3 +29,15 @@
 > Problem 4 - Find the masses
 
 > Problem 5 - Automatic arrays
+
+- Lab 4 - SymPy
+
+> Problem 1 - Quadratic Formula
+
+> Problem 2 - Find the masses
+
+> Problem 3 - A simple mass transfer problem
+
+> Problem 4 - A manufacturer recipe
+
+> Problem 5 - Cubic Equation State
