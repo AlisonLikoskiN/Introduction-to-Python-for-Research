@@ -118,7 +118,8 @@ Did you see any advantage in comparison of using a matrix within NumPy? Discuss 
  
 Yes, with SymPy we just set the symbols, equations and solve it, and with NumPy matrix, takes more efforts and
 time to set things right (set coeff. matrix, then set the Y matrix and solve).
-In this case, a matrix would make it harder to understand and easier to make mistakes. 
+In this case, a matrix would make it harder to understand and easier to make mistakes, and with numpy it probably would not work
+because of the part "xb * m2" and "xd * m2", since its two variable in the same term, and with a matrix it would be not possible to solve it.
 """
 
 

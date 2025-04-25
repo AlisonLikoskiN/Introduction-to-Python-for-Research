@@ -54,15 +54,15 @@ def draw(): # Just a function to make the terminal prettier =) (and faster to pr
     print("___" * 30)
     print()
 
-def robinsonPenguin():
+def robinsonPingwin():
     # Symbols
     Vm = sp.symbols("Vm")
 
     # Equation
-    penguinDoRobinson = (R * T) / (Vm - b) - (a * alphaT) / (Vm **2 + 2 * b * Vm - b **2) - P
+    pingwinDoRobinson = (R * T) / (Vm - b) - (a * alphaT) / (Vm **2 + 2 * b * Vm - b **2) - P
 
     # Solving the equation
-    solved = sp.solve((penguinDoRobinson), (Vm), dict = True) # Dict = True > return as a dictionary
+    solved = sp.solve((pingwinDoRobinson), (Vm), dict = True) # Dict = True > return as a dictionary
 
     return solved
 
@@ -72,7 +72,7 @@ print("Lab - Quadratic formula")
 print("By: Alison Likoski Neves")
 draw()
 
-specificVolume = robinsonPenguin()
+specificVolume = robinsonPingwin()
 print(f"There are {len(specificVolume)} different values of Vm (Molar Volume)")
 print("The values are:")
 for i in range(len(specificVolume)):
