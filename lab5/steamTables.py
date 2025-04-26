@@ -42,9 +42,11 @@ draw()
 # Printing the values of Cp(T,P) from tables vs Thermo values
 print("Cp(T,P) from tables vs Thermo values")
 print("T(C)   | P(Pa)       | Cp(T,P) from tables  | Cp(T,P) from Thermo")
+print("___"*30)
 for i in range(len(temperatures)):
     CpWater = Chemical("Water", T=temperatures[i], P=pressures[i]).Cp
     print(f"{temperatures[i]}   | {pressures[i]}      | {CpTable[i]}               | {CpWater}")
+print("___"*30)
 
 
 
