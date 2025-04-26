@@ -41,3 +41,15 @@
 > Problem 4 - A manufacturer recipe
 
 > Problem 5 - Cubic Equation State
+
+- Lab 5 - Thermo
+
+> Problem 1 - Let's check the Chemical class Atributes!
+
+> Problem 2 - Thermodynamics volumes
+
+> Problem 3 - Booze?
+
+> Problem 4 - SymPy vs. Thermo
+
+> Problem 5 - Steam Tables
