@@ -53,3 +53,13 @@
 > Problem 4 - SymPy vs. Thermo
 
 > Problem 5 - Steam Tables
+
+- Lab 6 - Matplotlib
+
+> Problem 1 - Time-traveling back in time
+
+> Problem 2  - Skill Pills Thrill Drills
+
+> Problem 3 - Publishable Bar Plot.
+
+> Problem 4 - Sassy Scatergram
